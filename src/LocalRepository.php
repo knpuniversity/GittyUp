@@ -2,7 +2,6 @@
 
 namespace KnpU\GittyUp;
 
-use Psr\Log\LoggerInterface;
 use Symfony\Component\Process\Process;
 
 /**
@@ -19,11 +18,6 @@ class LocalRepository
     public function __construct($repositoryPath)
     {
         $this->repoPath = $repositoryPath;
-    }
-
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
     }
 
     /**
