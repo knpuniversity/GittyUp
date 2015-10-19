@@ -1,0 +1,19 @@
+{
+    "name": "knpuniversity/gitty-up",
+    "type": "library",
+    "description": "Simple library for helping with git commands",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Weaver",
+            "email": "ryan@knpuniversity.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "KnpU\\GittyUp": "src"
+        }
+    }
+}
